@@ -1,2 +1,2 @@
 # WebVegaMedia
-Bootstrap
+Bootstrap, HTML, CSS
