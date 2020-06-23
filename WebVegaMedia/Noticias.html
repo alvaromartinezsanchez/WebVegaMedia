@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+	<style>
+	/* Color corporativo verde=> #99CC3D */
+	.container{
+		background: #e0ebc2;
+	}
+	
+	
+	nav, footer{
+		background: #99CC3D;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+
+	}
+	.titulo{
+		font-family: 'Anton', sans-serif;
+	}
+	.titulo2{
+		color: #499F06 ;
+	}
+	.imgEnseñanzas{
+		width: 100%; height: 200px;
+	}
+	.card{
+		margin: 10px 0;
+		padding-top: 10px;
+		width: 300px;
+	}
+	section{
+		margin: 10px;
+		padding: 10px;
+	}
+	article{
+		background:  white ;
+		padding: 10px;
+		margin: 20px;
+		border-top: 1px solid green;
+	}
+	.btn{
+		background: #99CC3D 
+	}
+	
+	</style>
+	
+	<title>Vega-Media</title>
+</head>
+<body>
+	<div class="container">
+		<!--BARRA DE NAVEGACION-->
+
+			<nav class="row navbar navbar-expand-sm navbar-light justify-content-between sticky-top">
+				<!-- Logotipo -->
+				<a href="#" class="col-2 col-md-2 navbar-brand">
+					<img src="./logo.png" alt="Logotipo" style="width:40px;">
+				</a>
+				<!--Boton colapso-->
+				<button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_plegable">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-sm-10 col-md-8 col-lg-6 collapse navbar-collapse" id="navbar_plegable">
+					<!--Enlaces-->
+					<ul class="navbar-nav nav-fill">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link ">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="Enseñanzas.html" class="nav-link ">Enseñanzas</a>
+						</li>
+						<li class="nav-item">
+							<a href="Centro.html" class="nav-link ">El Centro</a>
+						</li>
+						<li class="nav-item">
+							<a href="Noticias.html" class="nav-link ">Noticias</a>
+						</li>
+						<li class="nav-item">
+							<a href="Contacto.html" class="nav-link ">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		<section class="row">
+			<h3 class="col-12 text-center titulo">Noticias</h3>
+			<article class="col-7">
+				<div class="row justify-content-center">
+					<h4 class="col-12 titulo2">Trabajando en el departamento de Recursos Humanos</h4>
+					<iframe class="col-12 col-lg-8" width="100%" height="350px" src="https://www.ces-vegamedia.es/noticias/videorrhh1920.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="col-12 col-lg-4 text-justify">
+							Las alumnas de 2º de Gestión Administrativa han grabado un vídeo en el que interpretan el papel de diferentes trabajadores, asumiendo cada una de ellas distintas competencias en la organización de una empresa. Esta actividad forma parte de un "Manual de acogida" para nuevos trabajadores que han elaborado como trabajo en la materia de RRHH.
+						</p>
+				</div>
+				
+			</article>
+			
+			<article class="col-7 offset-5">
+				<div class="row justify-content-center">
+					<h4 class="col-12 titulo2">Feria de Cooperativas 2019</h4>
+					<img class="col-12 col-md-8" src="./ImagenesPrac-2ºEv/noticia1.jpg" alt="" width="100%">
+					<p class="col-12 col-md-4 text-justify">
+							Por cuarto año consecutivo, el CES Vega Media participa en la feria de Cooperativas Escolares organizada por UCOERM. 
+						</p>
+					<button type="button" class="btn btn-success m-4" data-toggle="collapse" data-target="#plegable2" >Ver Noticia</button>
+					<div id="plegable2" class="collapse row justify-content-center">
+						<p class="col-9 text-justify">
+							Por cuarto año consecutivo, el CES Vega Media participa en la feria de Cooperativas Escolares organizada por UCOERM. En esta ocasión los alumnos de 6º de Educación Primaria acudieron en representación de su cooperativa escolar, llamada Vega Comercio, junto a la cooperativa de 4º de ESO, Vegashop, haciendo alarde de grandes dotes empresariales y ofreciendo sus productos artesanales y ecológicos con plena disposición.
+						</p>
+						<p class="col-9 text-justify">
+							Desde llaveros realizados con la impresora 3D hasta chocolate procedente de comercio justo, flores de Pascua, lápiz plantable, maceteros biodegradables con compost ecológico elaborado por ellos mismos... Toda una surtida muestra de productos que garantizan la sostenibilidad ambiental y cuyo comercio potencia el desarrollo de los Objetivos de Desarrollo Sostenible impulsados por la Agenda 2030.
+						</p>
+						<img src="./ImagenesPrac-2ºEv/noticia2.jpg" alt="" width="60%">
+						<img src="./ImagenesPrac-2ºEv/noticia3.jpg" alt="" width="60%">
+						<img src="./ImagenesPrac-2ºEv/noticia4.jpg" alt="" width="60%">
+						<img src="./ImagenesPrac-2ºEv/noticia5.jpg" alt="" width="60%">
+						<img src="./ImagenesPrac-2ºEv/noticia6.jpg" alt="" width="60%">
+						
+					</div>
+				</div>
+				
+			</article>
+
+			<article class="col-7">
+				<div class="row justify-content-center">
+					<h4 class="titulo2 col-12">Visita a la Base Naval de Cartagena</h4>
+					<img class="col-12 col-lg-6" src="./ImagenesPrac-2ºEv/noticia7.jpg" alt="" width="100%">
+					<p class="col-12 col-lg-6 text-justify">
+							Siguiendo con nuestra peregrinación por los Archivos Históricos de Murcia, el pasado martes los alumnos de 2º de FPB visitaron el Archivo Naval de Cartagena. Tuvieron oportunidad de digitalizar legajos históricos que emplearán en su trabajo de investigación, y pudieron conocer los entresijos del archivo y documentación de estas instalaciones.
+						</p>
+					<button type="button" class="btn btn-success m-4" data-toggle="collapse" data-target="#plegable3" >Ver Noticia</button>
+					<div id="plegable3" class="collapse row justify-content-center">
+						
+						
+						<img src="./ImagenesPrac-2ºEv/noticia8.jpg" alt="" width="80%">
+						<img src="./ImagenesPrac-2ºEv/noticia9.jpg" alt="" width="80%">
+						<img src="./ImagenesPrac-2ºEv/noticia10.jpg" alt="" width="80%">
+						<img src="./ImagenesPrac-2ºEv/noticia11.jpg" alt="" width="80%">
+						
+					</div>
+				</div>
+				
+			</article>
+
+			<article class="col-7 offset-5">
+				<h4 class="titulo2">Mercadillo y Carrera Solidaria</h4>
+				<iframe width="100%" height="350px" src="https://www.ces-vegamedia.es/noticias/Congrats1920.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#plegable1" >Ver Noticia</button>
+				<div id="plegable1" class="collapse">
+					<p class="col-12 text-justify">
+						Gracias a vuestra colaboración, conseguimos logros como este. 
+					</p>
+				</div>
+			</article>
+
+		</section>
+		<footer class="row justify-content-around align-item-center">
+				<div class="col-8 align-self-center">
+					<div class="row align-item-center">
+						<img src="./logo.png" class="col-2" style="width:50px; height: 50px;" alt="">
+						<h5 class="col-10 align-self-end">Derechos reservados © Ces-VegaMedia S.L.</h5>
+					</div>
+				</div>
+				<div class="col-3 align-self-center">
+					<div class="row justify-content-center align-item-center p-1">
+						<a href="" ><img class="col-12" style="width:100%; height: 100%;" src="./ImagenesPrac-2ºEv/Facebook.jpg" alt=""></a>
+						<a href="" ><img class="col-12" src="./ImagenesPrac-2ºEv/twitte.jpg" alt=""></a>
+					</div>
+				</div>
+			</footer>
+
+	</div>
+	
+
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

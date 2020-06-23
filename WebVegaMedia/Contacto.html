@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet"> 
+	<link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+	<style>
+	/* Color corporativo verde=> #99CC3D */
+	.container{
+		background: #e0ebc2;
+	}
+	
+	
+	nav, footer{
+		background: #99CC3D;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+
+	}
+	.titulo{
+		font-family: 'Anton', sans-serif;
+	}
+	.imgEnseñanzas{
+		width: 100%; height: 200px;
+	}
+	.card{
+		margin: 10px 0;
+		padding-top: 10px;
+		width: 300px;
+	}
+	section{
+		margin: 10px;
+		padding: 10px;
+	}
+	article{
+		background:  white ;
+		padding: 10px;
+		margin-top: 10px;
+		border-top: 1px solid green;
+	}
+	.btn{
+		background: #99CC3D 
+	}
+	
+	</style>
+	
+	<title>Contacto</title>
+</head>
+<body>
+	<div class="container">
+		<!--BARRA DE NAVEGACION-->
+
+			<nav class="row navbar navbar-expand-sm navbar-light justify-content-between sticky-top">
+				<!-- Logotipo -->
+				<a href="#" class="col-2 col-md-2 navbar-brand">
+					<img src="./logo.png" alt="Logotipo" style="width:40px;">
+				</a>
+				<!--Boton colapso-->
+				<button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_plegable">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-sm-10 col-md-8 col-lg-6 collapse navbar-collapse" id="navbar_plegable">
+					<!--Enlaces-->
+					<ul class="navbar-nav nav-fill">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link ">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="Enseñanzas.html" class="nav-link ">Enseñanzas</a>
+						</li>
+						<li class="nav-item">
+							<a href="Centro.html" class="nav-link ">El Centro</a>
+						</li>
+						<li class="nav-item">
+							<a href="Noticias.html" class="nav-link ">Noticias</a>
+						</li>
+						<li class="nav-item">
+							<a href="Contacto.html" class="nav-link ">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		
+			<section>
+				<article class="row">
+					<h4 class="col-12 text-center mb-4">Información de Contacto</h4>
+					<div class="col-4">
+						<img src="./logo.png" alt="Logotipo">
+					</div>
+					<div class="col-4">
+						<p>Centro Concertado</p>
+						<p>CES Vega Media</p>
+						<p>Ctra. De Mula, 37 - 30560</p>
+						<p>Alguazas - Murcia</p>
+					</div>
+					<div class="col-4">
+						<p>Tlfn: 968 620 913</p>
+						<p>Fax: 968 620290</p>
+						<p>C.I.F.: F-30076012</p>
+						<p>Email: vegamedia@ces-vegamedia.es</p>
+					</div>
+
+				</article>
+			</section>
+			<section class="row justify-content-center" >
+			<div class="col-12">
+				<div class="row justify-content-center">
+					<div class="col-4 text-center titulo"><h2>Contacto</h2></div>
+				</div>
+			</div>
+			<form action="" class="col-10">
+				<div class="row justify-content-between">
+					<div class="form-group col-6">
+                        <input type="text" class="form-control mr-2" id="user" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-6">
+                        <input type="text" class="form-control" id="passwd" placeholder="Correo">
+                    </div>
+				</div>
+                <div class="row">
+                   	<div class="form-group col-12">
+						<textarea class="form-control" rows="5" name="comment" id="comment">Mensaje...</textarea>
+					</div>
+                </div>  
+                <div class="row justify-content-center">
+                   	<button class="btn btn-primary col-4" type="submit">Enviar</button>
+                </div>  
+            </form>
+		</section>
+		<section class="row justify-content-center">
+			<div class="col-10">
+				<div class="col-12">
+					<div class="row justify-content-center">
+						<div class="col-4 text-center titulo">
+							<h2>Ubicación</h2>
+						</div>
+					</div>
+				</div>
+				<iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12567.316232746756!2d-1.2424618335371722!3d38.05106925283573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1398410618657" width="960" height="450" frameborder="0" style="border:0"></iframe>
+			</div>
+		</section>
+		<section>
+			<article class="row justify-content-center">
+				<div class="col-12">
+					<div class="row justify-content-center">
+						<div class="col-10 text-center">
+							<h4>Horario Autobus Escolar</h4>
+						</div>
+						<div class="col-10">
+							<img src="./ImagenesPrac-2ºEv/horarioCampos.png" alt="" width="90%">
+						</div>
+						<div class="col-10">
+							<img src="./ImagenesPrac-2ºEv/horario2.png" alt="" width="90%">
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<footer class="row justify-content-around align-item-center">
+				<div class="col-6 col-md-8 align-self-center">
+					<div class="row align-item-center">
+						<img src="./logo.png" class="col-6 col-sm-4 col-md-2" style="width:50px; height: 50px;" alt="">
+						<h5 class="d-none d-md-block col-10 align-self-end">Derechos reservados © Ces-VegaMedia</h5>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 align-self-center">
+					<div class="row justify-content-center align-item-center p-1">
+						<a href="" ><img class="col-12" style="width:100%; height: 100%;" src="./ImagenesPrac-2ºEv/facebook.png" alt=""></a>
+						<a href="" ><img class="col-12" src="./ImagenesPrac-2ºEv/twitte.jpg" alt=""></a>
+					</div>
+				</div>
+			</footer>
+	</div>
+	
+
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

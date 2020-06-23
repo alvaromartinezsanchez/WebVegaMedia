@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+	<link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+	<style>
+	/* Color corporativo verde=> #99CC3D */
+	.container{
+		background: #e0ebc2;
+	}
+	
+	
+	nav, footer{
+		background: #99CC3D;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+
+	}
+	.separador{
+		background-color: #6CA63E;
+		border:1px solid white;
+		color:white;
+	}
+	.imgEnseñanzas{
+		width: 100%; height: 200px;
+	}
+	.card{
+		margin: 10px 0;
+		padding-top: 10px;
+		width: 300px;
+	}
+	
+	</style>
+	
+	<title>VM-Enseñanzas</title>
+</head>
+<body>
+	<div class="container">
+		<!--BARRA DE NAVEGACION-->
+
+			<nav class="row navbar navbar-expand-sm navbar-light justify-content-between sticky-top">
+				<!-- Logotipo -->
+				<a href="#" class="col-2 col-md-2 navbar-brand">
+					<img src="./logo.png" alt="Logotipo" style="width:40px;">
+				</a>
+				<!--Boton colapso-->
+				<button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_plegable">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-sm-10 col-md-8 col-lg-6 collapse navbar-collapse" id="navbar_plegable">
+					<!--Enlaces-->
+					<ul class="navbar-nav nav-fill">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link ">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="Enseñanzas.html" class="nav-link ">Enseñanzas</a>
+						</li>
+						<li class="nav-item">
+							<a href="Centro.html" class="nav-link ">El Centro</a>
+						</li>
+						<li class="nav-item">
+							<a href="Noticias.html" class="nav-link ">Noticias</a>
+						</li>
+						<li class="nav-item">
+							<a href="Contacto.html" class="nav-link ">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		
+		<div class="row justify-content-around">
+			<h3 class="col-12 text-center  mb-4 separador">Enseñanzas:</h3>
+			<!--INFANTIL-->
+			<div class="col-11 col-md-5 col-lg-3 card">
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/educacion-infantil.jpg" alt="Programador" >
+				<div class="card-body text-center">
+					<a name="Educacion"></a>
+					<h4 class="card-title">Educacion Infantil</h4>
+					<p class="card-text text-justify">Esta etapa está dedicada al fomento y el desarrollo integral de personalidad individual de cada uno de..</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Educacion infantil</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/educacion-infantil.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">Esta etapa está dedicada al fomento y el desarrollo integral de personalidad individual de cada uno de nuestros alumnos mediante la promoción de las habilidades sociales, emocionales, cognitivas y motrices básicas. Nuestro proyecto propio es adaptable a las características de cada grupo y alumno, siendo el niño el que marca la dinámica según sus necesidades, intereses y capacidades.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--PRIMARIA-->
+			<div class="col-11 col-md-5 col-lg-3 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/primaria-vdm.jpg" alt="Programador" >
+				<div class="card-body text-center">
+					<h4 class="card-title">Educacion Primaria</h4>
+					<p class="card-text text-justify">Esta etapa está dedicada al desarrollo del interés por aprender y al fomento de la cultura general...</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal2">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Educación Primaria</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/primaria-vdm.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">Esta etapa está dedicada al desarrollo del interés por aprender y al fomento de la cultura general. Los alumnos alcanzarán su capacidad deductiva, inductiva y lógica a través de la propia experimentación. La evaluación del alumnado se realiza de manera continua valorando así en mayor medida el esfuerzo diario en lugar del resultado de una prueba única. Nuestro proyecto propio es adaptable a las características de cada grupo y alumno, siendo el niño el que marca la dinámica según sus necesidades, intereses y capacidades. Formación básica e integral de calidad con proyectos únicos de 6 a 12 años.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--SECUNDARIA-->
+			<div class="col-11 col-md-5 col-lg-3 card">
+				<img class="card-img-top  img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/educacion-secundaria.jpg" alt="Programador">
+				<div class="card-body text-center">
+					<h4 class="card-title">Educacion Secundaria</h4>
+					<p class="card-text text-justify">La educación secundaria es básica y obligatoria. Comprende cuatro cursos académicos...</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal3">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Educación Secundaria</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/educacion-secundaria.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">La educación secundaria es básica y obligatoria. Comprende cuatro cursos académicos. La finalidad de la educación secundaria obligatoria es proporcionar a todos los chicos y chicas una educación que les permita asegurar un desarrollo personal sólido, adquirir las habilidades y las competencias culturales y sociales relativas a la expresión y comprensión oral, a la escritura, al cálculo, a la resolución de problemas de la vida cotidiana, al rechazo de todo tipo de comportamientos discriminatorios por razón de sexo, a la igualdad de derechos y oportunidades entre mujeres y hombres, a la autonomía personal, a la corresponsabilidad y la interdependencia personal y a la comprensión de los elementos básicos del mundo en los aspectos científico, social y cultural.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--FP BASICA-->
+		<div class="row justify-content-center justify-content-md-around">
+			<h3 class="col-12 text-center mt-4 mb-4 separador">Formación Profesional</h3>
+			<a name="Basica"></a>
+			<div class="col-11 col-md-6 col-lg-4 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/basica.jpg" alt="Programador">
+				<div class="card-body text-center">
+					
+					<h4 class="card-title">FP BASICA</h4>
+					<p class="card-text text-justify">Este ciclo, cofinanciado por la Unión Europea, tiene como objetivos la reducción del abandono escolar temprano..</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal4">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">F.P. Básica</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/basica.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">Este ciclo, cofinanciado por la Unión Europea, tiene como objetivos la reducción del abandono escolar temprano, el aprendizaje permanente y convalidación de las competencias adquiridas y el refuerzo de los vínculos con el mercado laboral y calidad de la formación profesional.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+		<!--FP GRADO MEDIO-->
+		<div class="row justify-content-around">
+			<h3 class="col-12 text-center mt-4 mb-4 separador">Grado Medio</h3>
+			<a name="Medio"></a>
+			<!--ELECTRICAS-->
+			<div class="col-11 col-md-5 col-lg-3 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/electricas.jpg" alt="Programador">
+				<div class="card-body text-center">
+					<h4 class="card-title">Instalaciones Eléctricas y Automáticas</h4>
+					<p class="card-text text-justify">2000 horas de formación. Para trabajar en el montaje y el mantenimiento de infraestructuras..</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal5">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Instalaciones Eléctricas y Automáticas</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/electricas.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">2000 horas de formación. Para trabajar en el montaje y el mantenimiento de infraestructuras de telecomunicación en edificios, máquinas eléctricas, sistemas automatizados, instalaciones eléctricas de baja tensión y sistemas domóticos.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!--ENFERMERIA-->
+			<div class="col-11 col-md-5 col-lg-3 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/enfermeria.jpg" alt="Programador">
+				<div class="card-body text-center">
+					<h4 class="card-title">Cuidados Auxiliares de Enfermería</h4>
+					<p class="card-text text-justify">1400 horas de formación. Para ejercer una actividad profesional en el sector sanitario..</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal6">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal6">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Cuidados Auxiliares de Enfermería</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/enfermeria.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">1400 horas de formación. Para ejercer una actividad profesional en el sector sanitario, en empresas privadas o creando empresa propia.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!--ADMINISTRATIVO-->
+			<div class="col-11 col-md-5 col-lg-3 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/administracion.jpg" alt="Programador">
+				<div class="card-body text-center">
+					<h4 class="card-title">Gestión Administrativa</h4>
+					<p class="card-text text-justify">2000 horas de formación. Este profesional ejerce su actividad tanto en grandes como en medianas y pequeñas empresas..</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal7">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal7">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Gestión Administrativa</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/administracion.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">2000 horas de formación. Este profesional ejerce su actividad tanto en grandes como en medianas y pequeñas empresas, particularmente en el sector servicios, así como en las administraciones públicas, ofreciendo apoyo administrativo en las tareas de administración y gestión.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--FP GRADO SUPERIOR-->
+		<div class="row justify-content-around">
+			<h3 class="col-12 text-center mt-4 mb-4 separador">Grado Superior</h3>
+			<a name="Superior"></a>
+			<!--ELECTICAS-->
+			<div class="col-11 col-md-5 col-lg-4 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/daw.jpeg" alt="Programador">
+				<div class="card-body text-center">
+					<h4 class="card-title">Desarrollo de Aplicaciones Web</h4>
+					<p class="card-text">2000 horas de formación. Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo..</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal8">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal8">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Desarrollo de Aplicaciones Web</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/daw.jpeg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">2000 horas de formación. Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos.</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!--ELECTICAS-->
+			<div class="col-11 col-md-5 col-lg-4 card" >
+				<img class="card-img-top img-fluid imgEnseñanzas" src="./ImagenesPrac-2ºEv/infantil.jpg" alt="Programador">
+				<div class="card-body text-center">
+					<h4 class="card-title">Educacion Infantil</h4>
+					<p class="card-text">2000 horas de formación. Para programar, diseñar y llevar a cabo actividades de intervención educativa y de atención social con la infancia y sus familias.</p>
+					<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal9">Ver mas..</a>
+					
+					<!--Ventana Modal-->
+					<div class="modal fade" id="myModal9">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								
+								<!--Modal header-->
+								<div class="modal-header">
+									<h4 class="modal-title">Educacion Infantil</h4>
+									<button type="button" class="close" data-dismiss="modal">×</button>
+								</div>
+								<!--Modal Body-->
+								<div class="modal-body row">
+									<img class="img-fluid float-left col-12 col-lg-6" src="./ImagenesPrac-2ºEv/infantil.jpg" alt="Perro">
+									<p class="text-justify col-12 col-lg-5" style="margin: 5px;">2000 horas de formación. Para programar, diseñar y llevar a cabo actividades de intervención educativa y de atención social con la infancia y sus familias..</p>
+								</div>
+								<!--Modal footer-->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<footer class="row justify-content-around align-item-center">
+				<div class="col-6 col-md-8 align-self-center">
+					<div class="row align-item-center">
+						<img src="./logo.png" class="col-6 col-sm-4 col-md-2" style="width:50px; height: 50px;" alt="">
+						<h5 class="d-none d-md-block col-10 align-self-end">Derechos reservados © Ces-VegaMedia</h5>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 align-self-center">
+					<div class="row justify-content-center align-item-center p-1">
+						<a href="" ><img class="col-12" style="width:100%; height: 100%;" src="./ImagenesPrac-2ºEv/facebook.png" alt=""></a>
+						<a href="" ><img class="col-12" src="./ImagenesPrac-2ºEv/twitte.jpg" alt=""></a>
+					</div>
+				</div>
+			</footer>
+	</div>
+	
+
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
